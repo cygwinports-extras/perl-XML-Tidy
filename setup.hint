@@ -1,0 +1,4 @@
+category: Perl
+requires: perl perl-Math-BaseCnv perl-XML-XPath
+sdesc: "Perl module for tidy indenting of XML documents"
+ldesc: "Perl module for tidy indenting of XML documents"

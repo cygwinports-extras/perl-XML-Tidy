@@ -1,0 +1,59 @@
+perl-XML-Tidy
+------------------------------------------
+Perl module for tidy indenting of XML documents
+
+Runtime requirements:
+  perl-5.8.7-5
+  perl-Math-BaseCnv-1.2.59M7mRX-1
+  perl-XML-XPath-1.13-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-5.8.7-5
+
+Canonical website:
+  http://search.cpan.org/dist/XML-Tidy/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/P/PI/PIP/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-XML-Tidy-1.2.54HJnFa-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-XML-Tidy-1.2.54HJnFa-X.cygport all
+
+This will create:
+  /usr/src/perl-XML-Tidy-1.2.54HJnFa-X-src.tar.bz2
+  /usr/src/perl-XML-Tidy-1.2.54HJnFa-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-XML-Tidy.sh
+  /usr/bin/xmltidy
+  /usr/lib/perl5/vendor_perl/5.8/XML/Tidy.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/XML/Tidy/.packlist
+  /usr/share/doc/Cygwin/perl-XML-Tidy-1.2.54HJnFa.README
+  /usr/share/doc/perl-XML-Tidy-1.2.54HJnFa/README
+  /usr/share/man/man3/XML.Tidy.3pm.gz
+  /usr/share/perl/cygwin-pods/5.8/XML-Tidy.pod
+
+------------------
+
+Port Notes:
+
+----- version 1.2.54HJnFa-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
